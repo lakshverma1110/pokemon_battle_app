@@ -35,8 +35,8 @@ Users can view Pokémon cards, enlarge them, and even battle two random cards ba
    flutter pub get
    flutter run -d chrome
    flutter build web
-   AI Assistance Notice
 
-## Some parts of this project, including code structure and UI improvements, were developed with the help of AI assistance (ChatGPT) for guidance, optimization, and debugging.
-   git clone https://github.com/<your-username>/pokemon_card_app.git
-   cd pokemon_card_app
+
+## AI Assistance Notice
+Some parts of this project, including code structure and UI improvements, were developed with the help of AI assistance (ChatGPT) for guidance, optimization, and debugging.
+   
