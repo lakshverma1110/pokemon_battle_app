@@ -1,16 +1,42 @@
-# pokemon_card_app
+# Pokémon Card App
 
-A new Flutter project.
+A Flutter web application that displays Pokémon cards using the [Pokémon TCG API](https://pokemontcg.io/).  
+Users can view Pokémon cards, enlarge them, and even battle two random cards based on their HP.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🌟 Features
 
-A few resources to get you started if this is your first Flutter project:
+- Fetches Pokémon card data from the Pokémon TCG API  
+- Displays cards in a modern and responsive ListView  
+- Tap on a card to view an enlarged version  
+- Battle Mode: Loads two random cards and declares the winner based on HP  
+- Clean and enhanced user interface  
+- Fully functional on web (hosted using GitHub Pages)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Technologies Used
+
+- **Flutter (Web)**  
+- **Dart**  
+- **Pokémon TCG API**  
+- **HTTP Package** for API calls  
+- **CachedNetworkImage** for image caching and smooth loading  
+
+---
+
+## 🚀 How to Run Locally
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/<your-username>/pokemon_card_app.git
+   cd pokemon_card_app
+   flutter pub get
+   flutter run -d chrome
+   flutter build web
+   AI Assistance Notice
+
+## Some parts of this project, including code structure and UI improvements, were developed with the help of AI assistance (ChatGPT) for guidance, optimization, and debugging.
+   git clone https://github.com/<your-username>/pokemon_card_app.git
+   cd pokemon_card_app
